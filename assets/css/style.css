@@ -36,6 +36,7 @@ body {
   border-radius: 999px;
   display: block;
   background: #111;
+  overflow: hidden;
 }
 
 /* Cards em imagem */
@@ -75,4 +76,5 @@ body {
 }
 .footer-link:hover {
   color: #fff;
+
 }
