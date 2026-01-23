@@ -45,7 +45,7 @@
         <!-- Links -->
         <section class="links d-grid gap-3">
           <!-- CARD 1 -->
-          <a class="link-card js-coupon-link" href="https://darklabsuplementos.com.br/" data-coupon="PAM" data-redirect="https://darklabsuplementos.com.br/">
+          <a class="link-card js-coupon-link" href="https://darklabsuplementos.com.br/" data-coupon="PAM" data-redirect="https://darklabsuplementos.com.br/" target="_blank">
             <img
               src="./assets/img/darklab.png"
               alt="DARKLAB"
@@ -55,7 +55,7 @@
           </a>
 
           <!-- CARD 2 -->
-          <a class="link-card js-coupon-link" href="https://berzerk.com.br/" data-coupon="PAM" data-redirect="https://berzerk.com.br/">
+          <a class="link-card js-coupon-link" href="https://berzerk.com.br/" data-coupon="PAM" data-redirect="https://berzerk.com.br/" target="_blank">
             <img
               src="./assets/img/berzerk.png"
               alt="BERZERK"
@@ -65,7 +65,7 @@
           </a>
 
           <!-- CARD 3 -->
-          <a class="link-card js-coupon-link" href="https://gymfenix.com.br/" data-coupon="PAM" data-redirect="https://gymfenix.com.br/">
+          <a class="link-card js-coupon-link" href="https://gymfenix.com.br/" data-coupon="PAM" data-redirect="https://gymfenix.com.br/" target="_blank">
             <img
               src="./assets/img/gymfenix.png"
               alt="GYMFENIX"
@@ -75,7 +75,7 @@
           </a>
 
           <!-- CARD 4 -->
-          <a class="link-card js-coupon-link" href="https://www.fiberoficial.com.br/" data-coupon="PAM" data-redirect="https://www.fiberoficial.com.br/">
+          <a class="link-card js-coupon-link" href="https://www.fiberoficial.com.br/" data-coupon="PAM" data-redirect="https://www.fiberoficial.com.br/" target="_blank">
             <img
               src="./assets/img/fiber.png"
               alt="FIBER"
@@ -84,8 +84,8 @@
             />
           </a>
 
-          <!-- CARD 5 -->
-          <a class="link-card js-coupon-link" href="https://www.heymu.com.br/" data-coupon="PAM" data-redirect="https://www.heymu.com.br/">
+          <!-- CARD 5 
+          <a class="link-card js-coupon-link" href="https://www.heymu.com.br/" data-coupon="PAM" data-redirect="https://www.heymu.com.br/" target="_blank">
             <img
               src="./assets/img/heymu.png"
               alt="HEYMU"
@@ -104,7 +104,7 @@
             />
           </a>
 
-          <!-- CARD 7 -->
+          <!-- CARD 7 --
           <a class="link-card js-coupon-link" href="https://www.tiktok.com/@pam_cerpa?_r=1&_t=ZS-936RDxq0UnV" target="_blank" rel="noopener">
             <img
               src="./assets/img/tiktok.png"
@@ -114,7 +114,7 @@
             />
           </a>
 
-          <!-- CARD 8 -->
+          <!-- CARD 8 --
           <a class="link-card js-coupon-link" href="https://www.instagram.com/pamella_cerpa?igsh=YWRscGcwbW1wdWw%3D&utm_source=qr" target="_blank" rel="noopener">
             <img
               src="./assets/img/instagram.png"
@@ -123,6 +123,7 @@
               loading="lazy"
             />
           </a>
+          <!-- -->
         </section>
 
         <!-- Toast -->
@@ -196,7 +197,7 @@
     }
   }
 
-  document.querySelectorAll(".js-coupon-link").forEach((el) => {
+  document.querySelectorAll("._js-coupon-link").forEach((el) => {
     el.addEventListener("click", async (ev) => {
       const coupon = el.dataset.coupon;
       const redirect = el.dataset.redirect || el.href;
@@ -222,4 +223,5 @@
 </script>
 
   </body>
+
 </html>
