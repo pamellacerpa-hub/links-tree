@@ -76,5 +76,8 @@ body {
 }
 .footer-link:hover {
   color: #fff;
-
 }
+.footer{
+  font-size: 12px;
+}
+
